@@ -10,7 +10,7 @@
 + GitHub Web Page
 
 ## Preview
-- Website: https://3n3scan.github.io
+- Link: [3n3scan GitHub Page](https://3n3scan.github.io)
 <p align="center">
   <a href="https://github.com/3n3scan/3n3scan.github.io" target="_blank">
     <img src="https://raw.githubusercontent.com/3n3scan/3n3scan.github.io/main/assets/preview/index.png" alt="3n3scan's Github Page - Index" title="3n3scan's Github Page - Index" />
