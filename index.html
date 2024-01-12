@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3n3scan.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="projects" onclick="showprojects()" class="animated fadeIn" style="animation-delay:2.2s;">projects</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>3n3scan.</h1>
+        <h2>Hobby Developer / Gamer / Human</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showprojects()">projects</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a href="https://github.com/3n3scan" target="_blank" class="social"><i class="fab fa-github"></i></a></td>
+                    <!-- <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://twitter.com/3n3scan" target="_blank" class="social"><i class="fab fa-twitter"></i></a></td> -->
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a href="https://discord.gg/VZKq4Np9qA" target="_blank" class="social"><i class="fab fa-discord"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a href="https://www.instagram.com/3n3scan" target="_blank" class="social"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a href="https://www.3n3scan.de" target="_blank" class="social"><i class="fab fa-dribbble"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="projects_container" class="container">
+        <div onclick="closeprojects()"><i class="fas fa-angle-right"></i></div>
+        <h1>projects.</h1>
+        <section>
+            <h2>FantasyHelper™</h2>
+            <p>
+                Simplify and enhance your Discord experience with FantasyHelper™, the versatile multipurpose bot.<br>From managing servers to interactive games, FantasyHelper™ offers a wide range of features to elevate your community. Discover seamless moderation, engaging entertainment, and powerful utilities all in one magical package. Join us on a journey to simplify and amplify your Discord experience with FantasyHelper™!
+            </p>
+            <p>
+                Bot Features:<br><br>
+
+                ● Fast: Experience the speed of our bot like never before! Enjoy lightning-fast responses and seamless interactions.<br>
+                ● Secure: Discover the unbeatable security of our bot. With robust encryption and advanced protection measures, your data is safe with us.<br>
+                ● Happy Users: Join the ranks of our delighted users who can't stop smiling! Experience the joy and satisfaction that comes from using our bot.<br>
+            </p>
+            <p>
+                Embrace the extraordinary with FantasyHelper™! 🌟✨
+            </p>
+            <div id="used">
+                <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                <div><i class="fas fa-circle"></i>&nbsp;HTML</div>
+                <div><i class="fas fa-circle"></i>&nbsp;CSS</div>
+                <div><i class="fas fa-circle"></i>&nbsp;JavaScript</div>
+            </div>
+            <a href="https://discord.com/invite/HcUf2J5pxT" target="_blank" class="btn_one">FantasyHelper™ Discord</a>
+            <a href="https://www.fantasybot.de" target="_blank" class="btn_two">FantasyHelper™ Website</a>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about me.</h1>
+            <section>
+                <h2>Hey there!</h2>
+                <p>
+                    I'm 3n3scan, a passionate individual with a love for technology and creativity. I thrive on learning new things and exploring the vast world of possibilities that each day brings. My journey in the digital realm has been an exciting one, filled with challenges and opportunities.
+                </p>
+                <p>
+                    Whether I'm coding, designing, or exploring the latest tech trends, I bring enthusiasm and dedication to everything I do. I believe in the power of continuous learning and the impact it can have on personal and professional growth. When I'm not immersed in the digital world, you can find me enjoying coding on new stuffs, playing games and connecting with the amazing community around me.
+                </p>
+                <p>
+                    Let's create and innovate together! 🚀
+                </p>
+            </section>
+            <section>
+                <h2>my skills</h2>
+                <p>
+                    i do eveything 😉
+                </p>
+            </section>
+        <div id="footer">
+            Made and Developed by <br> <a href="https://github.com/3n3scan">3n3scan</a>
+        </div>
+    <script src="assets/js/index.js" type="text/javascript"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
